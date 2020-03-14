@@ -2,7 +2,7 @@ FROM node:latest-alpine as builder
 WORKDIR /home/app
 COPY . .
 RUN npm install
-RUN npm run-script build
+RUN npm run build
 
 
 FROM nginx:alpine
