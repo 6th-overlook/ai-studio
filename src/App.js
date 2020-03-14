@@ -8,8 +8,7 @@ export default class App extends Component {
       <div className="App">
       <header className="App-header">
         <h1>AI Studio</h1>
-        
-        <p>Initial state for an application I will use to my own home-grown AI framework</p>
+        <p>Initial state for an application I will use to my own home-grown AI framework.</p>
       </header>
     </div>
         )
